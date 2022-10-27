@@ -161,6 +161,14 @@ margin-left:10px;
     color: black;
 }
 
+.panel-button button:hover{
+    box-shadow: -2px -1px 10px black inset;
+    
+}
+.panel-button button:hover a{
+    color: yellow;
+    text-decoration: none;
+}
 
 .footer{
     background-color: #999E93;
