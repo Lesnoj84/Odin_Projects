@@ -1,0 +1,172 @@
+*{
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #999E93;
+}
+.headerContainer{
+    background-color: #58644B;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.headerLogo{
+    width: 100px; height: 100px;
+}
+.headerText{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.headerLinks{
+    text-align: right;
+    flex: 1;
+    margin-right: 100px;
+}
+.headerLinks > a{
+margin: 0px 10px;
+font-weight: bold;
+}
+.introduction{
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+}
+.textBox{
+    margin: 10px;
+    width: 300px;
+}
+.textBox >h3{
+    text-align: left;
+}
+.textBox >p{
+    text-align: left;
+}
+.button{
+    height: 30px;
+    width: 90px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #B4C1A5;
+    border: 1px solid #ffffff;
+    color: black;
+ 
+}
+.button:hover{
+    box-shadow: -2px -1px 10px black inset;
+    
+}
+.button a{
+        color: black;
+        text-decoration: none;
+}
+.button:hover a{
+    color: yellow;
+    text-decoration: none;
+}
+
+#carnivorousplant{
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+    border: 3px solid #ffffff;
+    margin: 10px 0;
+}
+
+.randomeInformation {
+    background-color:#58644B;
+    padding-bottom: 10px ;
+}
+.randomeInformation h1 {
+    margin: 10px auto;
+    font-size: 30px;
+}
+    
+.icons img {
+    height: 80px;
+    width: 80px;
+    border: 1px solid #4F524C ;
+    border-radius: 10px;
+    box-shadow: 2px 1px 10px black;
+    }
+    
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px auto;
+ }   
+ .icon{
+    width: 150px;
+}
+.inspirinQuote{
+    height: 150px;
+}
+
+.inspirinQuote div{
+    width: 500px;
+   
+    margin: 10px auto;
+}
+
+.inspirinQuote p{
+    text-align: left;
+}
+.inspirinQuote h3{
+    text-align: right;
+}
+
+.strip{
+    display: flex;
+    height: 230px;
+    background-color: #58644B;
+    align-items: center;
+
+}
+.panel{
+    margin: auto;
+    display: flex;
+    width: 500px;
+    height: 60px;
+    background-color: #999E93;
+    border-radius: 5px;
+    align-items: center;
+    box-shadow: 4px 3px 15px black;
+}
+
+.panel-text{
+    flex: 1;
+}
+
+.panel-text h3,p{
+    color: black;
+    text-align: left;
+margin-left:10px;
+}
+
+.panel-button button{
+    height: 30px;
+    width: 90px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #B4C1A5;
+    border: 1px solid black;
+}
+.panel-button button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer{
+    background-color: #999E93;
+    ;
+}
+.footer p{
+    text-align: center;
+    padding: 10px;
+}
